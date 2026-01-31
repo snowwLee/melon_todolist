@@ -4,6 +4,10 @@
     gap:20px
 }
 
+.List > h4 {
+    color : #5e5d5d;
+}
+
 .List > input{
     width: 100%;
     border: none;
@@ -13,7 +17,7 @@
 
 .List > input:focus{
     outline: none;
-    border-bottom: 1px solid #63EC94;
+    border-bottom: 1px solid #86D3B0;
 }
 
 .List .todos_wrapper{
