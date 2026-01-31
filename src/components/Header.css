@@ -1,3 +1,10 @@
 .Header > h1{
     color : #63EC94
 }
+
+.Header .melon {
+  width: auto;
+  height: 30px;
+  vertical-align: bottom;
+  margin-right: 10px;
+}

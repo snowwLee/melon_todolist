@@ -27,8 +27,8 @@ import { useState, useRef } from 'react';
 
 function App() {
 
-  const [todos, setTodos] = useState(mockData);
-  const idRef = useRef(3);
+  const [todos, setTodos] = useState([]);
+  const idRef = useRef(0);
 
   const onCreate = (content) => {
     const newTodo = {
